@@ -19,7 +19,7 @@ The raw data is **not** stored in this repository because of its size and to pro
 ## Repository structure
 
 ```
-reports/     weekly Word reports
+report/     weekly Word reports
 src/         Python scripts
 outputs/     charts and result tables (aggregated, no personal data)
 data/        local only, not uploaded (see .gitignore)
