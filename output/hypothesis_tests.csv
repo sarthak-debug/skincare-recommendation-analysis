@@ -1,0 +1,6 @@
+hypothesis,test,statistic,p_value,effect_size,p_bonferroni,decision
+H1,"Spearman rho (product level, n>=30 reviews)",0.16457276363409812,1.4841792939699632e-12,rho = 0.165,7.420896469849817e-12,Reject H0
+H1,Kruskal-Wallis rating ~ price band,129.9181094999398,5.632756101392733e-28,epsilon^2 = 0.0001,2.8163780506963665e-27,Reject H0
+H2,Kruskal-Wallis rating ~ skin type,67.1633929079412,1.7277804765771982e-14,epsilon^2 = 0.0001,8.638902382885992e-14,Reject H0
+H3,Chi-square exclusive x recommended,119.88696610492632,6.696998973589717e-28,Cramer's V = 0.011,3.348499486794859e-27,Reject H0
+H5,Mann-Whitney U length (low > high),52711989198.0,1.0,rank-biserial r = 0.058,1.0,Fail to reject H0
