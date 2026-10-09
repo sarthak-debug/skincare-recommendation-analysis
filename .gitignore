@@ -1,0 +1,11 @@
+# Raw and processed data are kept on my computer only
+data/
+*.parquet
+outputs/reviews_clean*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
