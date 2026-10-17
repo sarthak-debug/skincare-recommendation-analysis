@@ -1,0 +1,2 @@
+products,flagged,actually_dropped_10pp,alert_precision,alert_recall,model
+1576,465,429,0.5634,0.6107,Random forest regressor

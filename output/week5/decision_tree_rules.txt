@@ -1,0 +1,22 @@
+|--- sentiment <= 0.62
+|   |--- missingindicator_helpful_wilson <= 0.50
+|   |   |--- sentiment <= 0.25
+|   |   |   |--- weights: [16707.08, 1925.17] class: 0
+|   |   |--- sentiment >  0.25
+|   |   |   |--- weights: [6821.95, 2344.95] class: 0
+|   |--- missingindicator_helpful_wilson >  0.50
+|   |   |--- exclaim_count <= 0.50
+|   |   |   |--- weights: [6116.78, 2732.12] class: 0
+|   |   |--- exclaim_count >  0.50
+|   |   |   |--- weights: [934.91, 1521.40] class: 1
+|--- sentiment >  0.62
+|   |--- exclaim_count <= 0.50
+|   |   |--- missingindicator_helpful_wilson <= 0.50
+|   |   |   |--- weights: [10127.63, 7819.28] class: 0
+|   |   |--- missingindicator_helpful_wilson >  0.50
+|   |   |   |--- weights: [5175.49, 10647.46] class: 1
+|   |--- exclaim_count >  0.50
+|   |   |--- missingindicator_helpful_wilson <= 0.50
+|   |   |   |--- weights: [2868.54, 9815.01] class: 1
+|   |   |--- missingindicator_helpful_wilson >  0.50
+|   |   |   |--- weights: [1247.61, 13194.59] class: 1

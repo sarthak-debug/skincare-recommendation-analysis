@@ -1,0 +1,25 @@
+model,params,cv_auc_mean,cv_auc_sd,train_auc_mean,gap_train_minus_cv
+Logistic regression,{'C': 0.01},0.8708,0.0034,0.8744,0.0036
+Logistic regression,{'C': 0.03},0.8707,0.0032,0.8748,0.004
+Logistic regression,{'C': 0.1},0.8705,0.0032,0.8749,0.0044
+Logistic regression,{'C': 0.3},0.8704,0.0032,0.875,0.0046
+Logistic regression,{'C': 1.0},0.8702,0.0033,0.875,0.0048
+Logistic regression,{'C': 3.0},0.8701,0.0033,0.875,0.0049
+Decision tree,"{'min_samples_leaf': 50, 'max_depth': 10}",0.8411,0.0058,0.893,0.0518
+Decision tree,"{'min_samples_leaf': 500, 'max_depth': 10}",0.8492,0.0031,0.8613,0.0121
+Decision tree,"{'min_samples_leaf': 50, 'max_depth': 4}",0.8302,0.0051,0.8348,0.0047
+Decision tree,"{'min_samples_leaf': 200, 'max_depth': 12}",0.8503,0.0046,0.8762,0.0259
+Decision tree,"{'min_samples_leaf': 500, 'max_depth': 6}",0.8456,0.0031,0.8543,0.0087
+Decision tree,"{'min_samples_leaf': 500, 'max_depth': 8}",0.8492,0.0032,0.8606,0.0114
+Random forest,"{'min_samples_leaf': 5, 'max_features': 'sqrt', 'max_depth': 10}",0.8676,0.0037,0.9094,0.0418
+Random forest,"{'min_samples_leaf': 20, 'max_features': 'sqrt', 'max_depth': 10}",0.8682,0.0035,0.8995,0.0313
+Random forest,"{'min_samples_leaf': 50, 'max_features': 'sqrt', 'max_depth': 16}",0.8714,0.0033,0.907,0.0357
+Random forest,"{'min_samples_leaf': 50, 'max_features': 0.3, 'max_depth': 10}",0.8747,0.0032,0.9036,0.0289
+Random forest,"{'min_samples_leaf': 5, 'max_features': 0.3, 'max_depth': 10}",0.874,0.0033,0.9257,0.0516
+Random forest,"{'min_samples_leaf': 20, 'max_features': 'sqrt', 'max_depth': 22}",0.8745,0.003,0.939,0.0645
+Gradient boosting (HistGB),"{'max_leaf_nodes': 63, 'max_iter': 500, 'learning_rate': 0.12, 'l2_regularization': 1.0}",0.8864,0.003,0.9407,0.0543
+Gradient boosting (HistGB),"{'max_leaf_nodes': 31, 'max_iter': 300, 'learning_rate': 0.12, 'l2_regularization': 0.0}",0.887,0.003,0.9247,0.0377
+Gradient boosting (HistGB),"{'max_leaf_nodes': 63, 'max_iter': 300, 'learning_rate': 0.08, 'l2_regularization': 1.0}",0.8872,0.0033,0.9398,0.0527
+Gradient boosting (HistGB),"{'max_leaf_nodes': 15, 'max_iter': 300, 'learning_rate': 0.12, 'l2_regularization': 1.0}",0.888,0.0034,0.9156,0.0276
+Gradient boosting (HistGB),"{'max_leaf_nodes': 31, 'max_iter': 500, 'learning_rate': 0.12, 'l2_regularization': 0.0}",0.887,0.003,0.9247,0.0377
+Gradient boosting (HistGB),"{'max_leaf_nodes': 31, 'max_iter': 300, 'learning_rate': 0.12, 'l2_regularization': 1.0}",0.8873,0.0032,0.9292,0.0418

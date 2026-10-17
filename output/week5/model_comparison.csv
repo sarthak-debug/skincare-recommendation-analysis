@@ -1,0 +1,6 @@
+model,params,ROC_AUC,PR_AUC_not_rec,macro_F1,accuracy,precision_not_rec,recall_not_rec,brier,train_seconds
+Majority baseline (always recommend),-,0.5,0.1575,0.4572,0.8425,0.0,0.0,0.1327,0.0
+Logistic regression,{'C': 0.01},0.8747,0.6085,0.7145,0.8038,0.4318,0.776,0.1421,9.2
+Decision tree,"{'min_samples_leaf': 200, 'max_depth': 12}",0.8675,0.5988,0.6917,0.7769,0.3966,0.7972,0.1496,14.4
+Random forest,"{'min_samples_leaf': 50, 'max_features': 0.3, 'max_depth': 10}",0.8799,0.6228,0.7129,0.8003,0.4275,0.7884,0.1374,64.9
+Gradient boosting (HistGB),"{'max_leaf_nodes': 15, 'max_iter': 300, 'learning_rate': 0.12, 'l2_regularization': 1.0}",0.8965,0.6675,0.7258,0.8093,0.4429,0.8173,0.1305,30.9

@@ -1,0 +1,11 @@
+,share_before,share_after,lift_low_vs_high_after
+theme_breakout,0.1565,0.1438,1.52
+theme_irritation,0.157,0.123,1.42
+theme_dryness,0.2143,0.1886,1.06
+theme_greasy,0.2001,0.1424,1.32
+theme_smell,0.2512,0.2253,0.92
+theme_pilling_texture,0.1089,0.1005,0.94
+theme_packaging,0.1347,0.1326,1.01
+theme_price_value,0.1518,0.1518,1.55
+theme_no_effect,0.0247,0.0247,13.74
+theme_repurchase,0.039,0.039,0.75

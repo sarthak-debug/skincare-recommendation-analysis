@@ -1,0 +1,16 @@
+group_variable,group,n,actual_not_rec_share,ROC_AUC,recall_not_rec,recall_gap_vs_best
+skin_type,combination,85866,0.1523,0.8952,0.8119,0.0376
+skin_type,dry,29316,0.1601,0.8934,0.8121,0.0374
+skin_type,normal,21087,0.1646,0.9063,0.8349,0.0146
+skin_type,not_reported,3337,0.1792,0.9222,0.8495,0.0
+skin_type,oily,19022,0.1655,0.8902,0.8225,0.027
+skin_tone,deep,3604,0.1562,0.8827,0.7975,0.0299
+skin_tone,fair,33782,0.1661,0.892,0.8182,0.0092
+skin_tone,fairlight,9511,0.1705,0.8865,0.8181,0.0093
+skin_tone,light,43299,0.1584,0.8954,0.8185,0.0089
+skin_tone,lightmedium,31903,0.1499,0.8977,0.8126,0.0148
+skin_tone,medium,12321,0.1439,0.9022,0.8133,0.0141
+skin_tone,mediumtan,10054,0.161,0.9007,0.8178,0.0097
+skin_tone,not_reported,7028,0.1493,0.9191,0.8275,0.0
+skin_tone,rich,921,0.1216,0.8947,0.7768,0.0507
+skin_tone,tan,5616,0.1538,0.8929,0.8194,0.008

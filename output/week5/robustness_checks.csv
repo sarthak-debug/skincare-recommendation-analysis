@@ -1,0 +1,7 @@
+check,test_rows,ROC_AUC,PR_AUC_not_rec,macro_F1,recall_not_rec,brier
+"Reference: all features, random product split",158628,0.8956,0.6656,0.7238,0.8203,0.1314
+Without helpful_wilson (votes arrive after posting),158628,0.8825,0.6308,0.7069,0.8078,0.1402
+Without log_loves (popularity measured at scrape time),158628,0.8951,0.6644,0.7226,0.8211,0.1322
+No text features (could score a shopper before they write),158628,0.7914,0.4309,0.6153,0.7366,0.1884
+Excluding incentivised reviews,132571,0.8933,0.6843,0.7308,0.8195,0.1339
+"Temporal: train before 2022-04-06, test after",162766,0.9052,0.6681,0.7364,0.8127,0.1174
