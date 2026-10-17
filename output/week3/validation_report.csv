@@ -1,0 +1,11 @@
+check,passed
+rating only 1-5,PASS
+"is_recommended only 0, 1 or missing",PASS
+price above 0,PASS
+no exact duplicate rows,PASS
+no author_id column (privacy),PASS
+no e-mail addresses left in text,PASS
+helpfulness within 0-1,PASS
+every review matched to a product,PASS
+submission_time not in the future,PASS
+skin_type has no blanks,PASS

@@ -1,0 +1,30 @@
+{
+  "run_started": "2026-10-17T10:21:52",
+  "run_seconds": 395.3,
+  "python": "3.12.4",
+  "pandas": "3.0.2",
+  "numpy": "2.2.6",
+  "scikit_learn": "1.8.0",
+  "config": {
+    "raw_dir": "data/raw",
+    "processed_dir": "data/processed",
+    "out_dir": "output/week3",
+    "seed": 42,
+    "min_words_for_text": 1,
+    "drop_col_missing_pct": 80,
+    "review_len_cap_pct": 99.5,
+    "iqr_k": 3.0,
+    "min_group_size": 30
+  },
+  "raw_file_md5": {
+    "product_info.csv": "a1ae22a729d2ba664d739cd1c8b10e58",
+    "reviews_0-250.csv": "5681d06ca04c462ab6b8555d04671d0a",
+    "reviews_1250-end.csv": "a30957442de35b30fd8f78cb2f65cbbe",
+    "reviews_250-500.csv": "5532aa5c1e2e0681c05cf5b53d22199f",
+    "reviews_500-750.csv": "abb099db3ebcd60547dabe9913878fa6",
+    "reviews_750-1250.csv": "367d8b9e879ac8dedc40e9af2cc5d5b8"
+  },
+  "rows_raw_reviews": 1094411,
+  "rows_clean_reviews": 971500,
+  "columns_clean": 57
+}

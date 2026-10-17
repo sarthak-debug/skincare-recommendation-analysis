@@ -1,0 +1,18 @@
+step,table,rows_before,rows_after,rows_changed,note
+load,products,8494,8494,0,27 columns
+load,reviews,1094411,1094411,0,5 files
+drop duplicate product_id,products,8494,8494,0,
+remove price <= 0,products,8494,8494,0,
+parse size to mL,products,8494,8494,0,parsed 78% of sizes
+drop near-empty columns,products,8494,8494,0,"variation_desc, value_price_usd"
+rating within 1-5,reviews,1094411,1094411,0,
+product_id and author_id present,reviews,1094411,1094411,0,
+no future dates,reviews,1094411,1094411,0,
+clean text,reviews,1094411,1094411,0,"1,453 without text; 82 likely non-English"
+exact duplicates,reviews,1094411,1094187,224,
+same author + product + text,reviews,1094187,1093853,334,
+syndicated copies across variants,reviews,1093853,971500,122353,
+flag incentivised,reviews,971500,971500,0,"121,774 flagged"
+join product master (inner),reviews,971500,971500,0,0 reviews had no product
+price consistency check,reviews,971500,971500,0,0.0% reviews show a different price than product master (master kept)
+train/test split by product + fit preprocessor,reviews,813588,813588,0,"train (654960, 49), test (158628, 49), shared products 0"

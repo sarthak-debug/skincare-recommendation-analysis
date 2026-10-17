@@ -1,0 +1,58 @@
+column,dtype,missing_pct,n_unique,example
+rating,int64,0.0,5,5
+is_recommended,float64,16.25,2,1.0
+helpfulness,float64,51.48,3762,1.0
+total_feedback_count,int32,0.0,676,2
+total_neg_feedback_count,int32,0.0,257,0
+total_pos_feedback_count,int32,0.0,590,2
+submission_time,datetime64[us],0.0,5317,2023-02-01 00:00:00
+review_text,str,0.0,969378,I use this with the Nudestix “Citrus Clean Balm & Make-Up Me
+review_title,str,0.0,363676,Taught me how to double cleanse!
+skin_tone,string,0.0,15,not_reported
+eye_color,string,0.0,7,brown
+skin_type,string,0.0,5,dry
+hair_color,string,0.0,8,black
+product_id,str,0.0,2294,P504322
+review_len_words,int32,0.0,517,79
+has_text,int8,0.0,2,1
+likely_non_english,int8,0.0,2,0
+incentivised,int8,0.0,2,0
+skin_type_missing,int8,0.0,2,0
+skin_tone_missing,int8,0.0,2,1
+eye_color_missing,int8,0.0,2,0
+hair_color_missing,int8,0.0,2,0
+skin_tone_ordinal,float64,16.32,11,4.0
+helpful_wilson,float64,51.48,5945,0.3423719528896193
+has_votes,int8,0.0,2,1
+review_year,Int16,0.0,16,2023
+low_rating,int8,0.0,2,0
+rating_group,category,0.0,3,high (4-5)
+review_len_capped,int32,0.0,263,79
+log_review_len,float64,0.0,517,4.382026634673881
+reviewer_key,uint64,0.0,503216,12532877898445483569
+brand_name,string,0.0,142,nudestix
+primary_category,string,0.0,1,skincare
+secondary_category,string,0.0,13,cleansers
+tertiary_category,string,8.99,30,face wash & cleansers
+price_usd,float64,0.0,220,19.0
+size_ml,float64,9.38,165,70.0
+price_per_ml,float64,9.38,698,0.2714285714285714
+price_outlier,int8,0.0,2,0
+loves_count,int64,0.0,2211,177
+on_sale,int8,0.0,2,0
+limited_edition,int8,0.0,2,0
+new,int8,0.0,2,0
+online_only,int8,0.0,2,1
+sephora_exclusive,int8,0.0,2,0
+ingredient_count,float64,2.12,148,23.0
+has_fragrance,int8,0.0,3,0
+has_alcohol_denat,int8,0.0,3,0
+has_niacinamide,int8,0.0,3,0
+has_retinoid,int8,0.0,3,0
+has_hyaluronic,int8,0.0,3,1
+has_salicylic,int8,0.0,3,0
+has_vitamin_c,int8,0.0,3,0
+has_spf_filter,int8,0.0,3,0
+log_price,float64,0.0,220,2.9444389791664403
+log_loves,float64,0.0,2211,5.181783550292085
+price_band,category,0.0,4,Q1 low
