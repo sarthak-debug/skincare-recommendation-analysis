@@ -1,0 +1,6 @@
+feature_set,model,n_features_in,ROC_AUC,macro_F1,recall_not_recommended,PR_AUC_not_recommended,AUC_gain_vs_A
+A. Baseline (Week 2 features),Logistic regression,5,0.554,0.4941,0.4372,0.1808,0.0
+B. + engineered non-text features,Logistic regression,42,0.7539,0.597,0.6987,0.3444,0.1999
+C. + text features and sentiment,Logistic regression,56,0.8735,0.7135,0.7723,0.6057,0.3195
+C. + text features and sentiment,Gradient boosting (HistGB),56,0.8959,0.725,0.8176,0.6664,0.3419
+Majority baseline (always recommend),-,0,0.5,0.4572,0.0,0.1575,-0.054

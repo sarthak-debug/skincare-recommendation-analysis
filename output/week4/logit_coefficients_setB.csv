@@ -1,0 +1,143 @@
+feature,std_coefficient
+bin__sephora_exclusive,-0.5067
+cat__skin_x_category_infrequent_sklearn,-0.2864
+cat__secondary_category_lip balms & treatments,-0.23
+num__missingindicator_reviewer_prior_mean_rating,-0.1895
+cat__skin_x_category_dry | lip balms & treatments,-0.1708
+cat__skin_x_category_oily | sunscreen,-0.166
+cat__skin_tone_olive,-0.1461
+cat__skin_x_category_dry | high tech tools,-0.1221
+cat__skin_x_category_combination | wellness,-0.1197
+cat__segment_3,-0.1187
+cat__skin_x_category_normal | wellness,-0.1097
+cat__skin_x_category_not_reported | cleansers,-0.1075
+cat__skin_x_category_oily | lip balms & treatments,-0.1067
+bin__oily_x_salicylic,-0.1051
+num__brand_price_level,-0.1033
+cat__secondary_category_eye care,-0.0981
+cat__skin_x_category_not_reported | eye care,-0.0938
+cat__skin_type_not_reported,-0.0876
+cat__skin_x_category_normal | value & gift sets,-0.0739
+bin__dry_x_hyaluronic,-0.0732
+cat__secondary_category_sunscreen,-0.0721
+bin__dry_x_alcohol,-0.0721
+cat__secondary_category_infrequent_sklearn,-0.0677
+cat__skin_x_category_oily | moisturizers,-0.0667
+cat__skin_x_category_normal | masks,-0.0649
+cat__skin_x_category_combination | mini size,-0.0618
+bin__oily_x_fragrance,-0.0599
+bin__online_only,-0.0584
+cat__skin_x_category_dry | sunscreen,-0.0539
+cat__skin_tone_deep,-0.0491
+cat__skin_tone_mediumtan,-0.0452
+bin__has_niacinamide,-0.0452
+cat__skin_x_category_combination | eye care,-0.0447
+cat__secondary_category_cleansers,-0.0424
+cat__secondary_category_moisturizers,-0.0373
+cat__skin_x_category_oily | eye care,-0.0369
+cat__skin_x_category_dry | moisturizers,-0.0318
+num__product_prior_n,-0.0253
+cat__secondary_category_wellness,-0.0248
+cat__segment_2,-0.0242
+bin__has_hyaluronic,-0.0242
+num__log_price,-0.0143
+num__brand_n_products,-0.0141
+cat__skin_x_category_normal | mini size,-0.0127
+num__log_review_len,-0.0114
+cat__skin_x_category_oily | cleansers,-0.0107
+num__review_month,-0.009
+cat__skin_x_category_combination | lip balms & treatments,-0.0072
+cat__skin_x_category_dry | treatments,-0.0055
+cat__skin_x_category_combination | moisturizers,-0.0041
+cat__skin_tone_infrequent_sklearn,-0.0035
+cat__skin_tone_tan,-0.0025
+bin__is_first_review,-0.002
+cat__skin_x_category_oily | wellness,-0.0015
+cat__skin_tone_not_reported,0.0001
+cat__skin_x_category_combination | treatments,0.0022
+num__ingredient_count,0.0032
+num__missingindicator_ppm_rel_category,0.0034
+num__missingindicator_product_prior_mean_rating,0.0034
+num__ppm_rel_category,0.0042
+cat__skin_x_category_normal | sunscreen,0.0064
+cat__skin_x_category_normal | cleansers,0.0082
+num__missingindicator_ingredient_count,0.0084
+cat__skin_x_category_oily | self tanners,0.0088
+cat__skin_x_category_combination | cleansers,0.0088
+num__missingindicator_skin_tone_ordinal,0.0098
+cat__skin_x_category_not_reported | lip balms & treatments,0.0105
+bin__limited_edition,0.0106
+cat__skin_x_category_oily | treatments,0.0108
+cat__skin_x_category_oily | masks,0.0109
+num__missingindicator_product_prior_rec_rate,0.0116
+cat__skin_type_normal,0.0126
+cat__skin_tone_porcelain,0.0132
+num__log_loves,0.014
+num__brand_te,0.0157
+cat__skin_x_category_not_reported | treatments,0.0171
+cat__skin_tone_fairlight,0.0185
+cat__skin_x_category_normal | treatments,0.0195
+cat__skin_x_category_combination | masks,0.0216
+cat__skin_x_category_not_reported | value & gift sets,0.0218
+cat__skin_x_category_dry | mini size,0.0219
+cat__skin_tone_light,0.0228
+cat__skin_x_category_not_reported | wellness,0.0251
+cat__skin_x_category_normal | moisturizers,0.0271
+cat__skin_x_category_normal | eye care,0.0278
+cat__skin_x_category_oily | value & gift sets,0.028
+cat__skin_x_category_combination | sunscreen,0.0289
+cat__skin_tone_lightmedium,0.0304
+cat__skin_x_category_not_reported | mini size,0.0341
+cat__premium_tier_premium,0.0343
+bin__has_fragrance,0.0343
+bin__on_sale,0.0351
+cat__skin_x_category_not_reported | moisturizers,0.0382
+num__product_age_days,0.0386
+cat__skin_x_category_normal | self tanners,0.041
+cat__premium_tier_mid,0.0432
+cat__secondary_category_treatments,0.0441
+cat__skin_x_category_normal | lip balms & treatments,0.0442
+cat__segment_4,0.0447
+num__price_rel_category,0.0478
+cat__skin_x_category_dry | eye care,0.0496
+cat__skin_x_category_dry | masks,0.0553
+cat__skin_type_combination,0.0564
+cat__skin_x_category_dry | cleansers,0.0588
+cat__secondary_category_self tanners,0.0627
+num__helpful_wilson,0.0631
+cat__skin_x_category_dry | value & gift sets,0.0638
+cat__skin_x_category_dry | self tanners,0.0661
+cat__skin_x_category_combination | self tanners,0.0672
+cat__skin_tone_rich,0.0706
+num__skin_tone_ordinal,0.0712
+cat__skin_x_category_not_reported | masks,0.0733
+cat__skin_tone_medium,0.0796
+cat__skin_tone_fair,0.0825
+cat__skin_x_category_combination | high tech tools,0.0831
+bin__has_salicylic,0.0883
+cat__secondary_category_masks,0.0962
+cat__skin_x_category_normal | high tech tools,0.0997
+num__reviewer_prior_reviews,0.1026
+cat__skin_type_oily,0.1056
+cat__skin_type_dry,0.1061
+num__product_prior_rec_rate,0.1103
+bin__has_retinoid,0.1104
+cat__skin_x_category_not_reported | sunscreen,0.1125
+cat__premium_tier_value,0.1155
+cat__skin_tone_dark,0.1218
+cat__segment_1,0.1331
+bin__new,0.1375
+cat__skin_x_category_combination | value & gift sets,0.151
+cat__segment_0,0.1582
+cat__secondary_category_mini size,0.1657
+cat__skin_x_category_dry | wellness,0.1811
+cat__skin_x_category_oily | mini size,0.1843
+cat__secondary_category_value & gift sets,0.1906
+cat__secondary_category_high tech tools,0.2061
+num__price_x_exclusive,0.2269
+cat__skin_x_category_oily | high tech tools,0.2436
+bin__is_early_review,0.3595
+num__reviewer_prior_mean_rating,0.3734
+bin__incentivised,0.3802
+num__product_prior_mean_rating,0.4153
+num__missingindicator_helpful_wilson,0.5399

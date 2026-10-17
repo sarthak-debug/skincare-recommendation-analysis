@@ -1,0 +1,4 @@
+test,n,effect,p_value
+Spearman: prior product mean rating vs this rating (prior n >= 10),949970,0.218141,0.0
+Mean rating: first 10 reviews vs later (Mann-Whitney),21530,0.155489,0.0
+Spearman: reviewer's past mean rating vs this rating (3+ past reviews),211653,0.410544,0.0

@@ -1,0 +1,4 @@
+rating_group,negative,neutral,positive,cohen_kappa_overall
+low (1-2),0.3601,0.0703,0.5697,0.2766
+neutral (3),0.1387,0.043,0.8183,0.2766
+high (4-5),0.0354,0.0206,0.9439,0.2766

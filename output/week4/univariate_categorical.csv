@@ -1,0 +1,44 @@
+variable,level,count,share
+skin_type,combination,480260,0.4943
+skin_type,dry,163862,0.1687
+skin_type,normal,116731,0.1202
+skin_type,oily,106166,0.1093
+skin_type,not_reported,104481,0.1075
+skin_tone,light,235112,0.242
+skin_tone,fair,183221,0.1886
+skin_tone,lightmedium,172387,0.1774
+skin_tone,not_reported,158472,0.1631
+skin_tone,medium,62143,0.064
+skin_tone,mediumtan,54645,0.0562
+skin_tone,fairlight,49278,0.0507
+skin_tone,tan,29624,0.0305
+skin_tone,deep,18053,0.0186
+skin_tone,rich,4754,0.0049
+skin_tone,olive,1679,0.0017
+skin_tone,porcelain,1557,0.0016
+skin_tone,dark,511,0.0005
+skin_tone,notsurest,61,0.0001
+skin_tone,ebony,3,0.0
+secondary_category,moisturizers,278053,0.2862
+secondary_category,treatments,216914,0.2233
+secondary_category,cleansers,183290,0.1887
+secondary_category,eye care,74849,0.077
+secondary_category,masks,66028,0.068
+secondary_category,lip balms & treatments,61578,0.0634
+secondary_category,sunscreen,39128,0.0403
+secondary_category,mini size,12628,0.013
+secondary_category,self tanners,11934,0.0123
+secondary_category,value & gift sets,11177,0.0115
+secondary_category,wellness,10092,0.0104
+secondary_category,high tech tools,5814,0.006
+secondary_category,shop by concern,15,0.0
+price_band,Q1 low,251368,0.2587
+price_band,Q3,242312,0.2494
+price_band,Q4 high,240182,0.2472
+price_band,Q2,237638,0.2446
+premium_tier,mid,508226,0.5231
+premium_tier,value,248936,0.2562
+premium_tier,premium,214338,0.2206
+sentiment_class,positive,869041,0.8945
+sentiment_class,negative,74404,0.0766
+sentiment_class,neutral,26603,0.0274

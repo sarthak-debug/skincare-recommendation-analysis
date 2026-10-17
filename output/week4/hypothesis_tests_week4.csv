@@ -1,0 +1,15 @@
+data,hypothesis,test,effect_size,p_value,effect_measure,p_bonferroni,decision
+all clean reviews,H1,Spearman price vs mean product rating,0.171903,0.0,rho,0.0,Reject H0
+all clean reviews,H1,Spearman price per mL vs mean product rating,0.026344,0.310339,rho,1.0,Fail to reject H0
+all clean reviews,H2,Kruskal-Wallis rating by skin type,7.7e-05,0.0,epsilon^2,0.0,Reject H0
+all clean reviews,H3,Chi-square exclusive x recommended,0.008633,0.0,Cramer's V,0.0,Reject H0
+all clean reviews,H4,Spearman sentiment vs rating,0.317281,0.0,rho,0.0,Reject H0
+all clean reviews,H4,Chi-square sentiment class x rating group,0.277755,0.0,Cramer's V,0.0,Reject H0
+all clean reviews,H5,Kruskal-Wallis review length by 5 rating levels,0.006163,0.0,epsilon^2,0.0,Reject H0
+excluding incentivised,H1,Spearman price vs mean product rating,0.143644,0.0,rho,0.0,Reject H0
+excluding incentivised,H1,Spearman price per mL vs mean product rating,0.002334,0.928877,rho,1.0,Fail to reject H0
+excluding incentivised,H2,Kruskal-Wallis rating by skin type,5.3e-05,0.0,epsilon^2,0.0,Reject H0
+excluding incentivised,H3,Chi-square exclusive x recommended,0.01285,0.0,Cramer's V,0.0,Reject H0
+excluding incentivised,H4,Spearman sentiment vs rating,0.333805,0.0,rho,0.0,Reject H0
+excluding incentivised,H4,Chi-square sentiment class x rating group,0.27857,0.0,Cramer's V,0.0,Reject H0
+excluding incentivised,H5,Kruskal-Wallis review length by 5 rating levels,0.004403,0.0,epsilon^2,0.0,Reject H0
