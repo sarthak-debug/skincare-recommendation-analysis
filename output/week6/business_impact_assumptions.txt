@@ -1,0 +1,2 @@
+Assumptions: {'customers': 100000, 'contact_cost_usd': 1.0, 'save_rate': 0.2, 'customer_value_usd': 60.0}
+Break-even save rate for model-targeted follow-up: 3.8%

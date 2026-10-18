@@ -1,0 +1,5 @@
+outcome,per_1000
+"Unhappy, caught by the model",128
+"Unhappy, missed",29
+"Happy, flagged anyway (false alarm)",161
+"Happy, correctly left alone",682

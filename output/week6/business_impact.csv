@@ -1,0 +1,5 @@
+plan,customers_contacted,unhappy_reached,cost_usd,value_retained_usd,net_usd,return_per_dollar
+Model-targeted follow-up,28972,12832,28972,153979,125008,5.31
+"Random follow-up, same budget",28972,4549,28972,54583,25611,1.88
+Contact every customer,100000,15700,100000,188400,88400,1.88
+Do nothing,0,0,0,0,0,
